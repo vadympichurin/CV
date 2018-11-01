@@ -1,0 +1,50 @@
+
+.menu-wrapper {
+    display: none;
+}
+
+/*---------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+    .menu-wrapper {
+        display: block;
+        width: 15%;
+        margin-top: 1rem;
+        align-self: flex-start;
+    }
+
+    .menu-list {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+        margin: 0;
+    }
+
+    .menu-item {
+        list-style: none;
+        width: 100%;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+
+    .menu-item:hover {
+        background-color: #20c6d5;
+    }
+
+    .bgc-grey {
+        background-color: #909593;
+    }
+
+    .bgc-green {
+        background-color: #10c275;
+    }
+}
+
+/*--------------------------------------------------*/
+@media only screen and (min-width: 1200px) {
+    .menu-wrapper {
+        width: 170px;
+        margin-top: 2rem;
+    }
+}

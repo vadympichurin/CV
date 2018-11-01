@@ -1,0 +1,257 @@
+.home-wrapper {
+    background-color: rgba(255,255,255,0.95);
+    margin-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.language-box {
+    padding-top: 3px;
+    text-align: left;
+}
+
+.en {
+    background-image: url('../img/uk.png');
+}
+
+.ru {
+    background-image: url('../img/ru.png');
+}
+
+.es {
+    background-image: url('../img/es.png');
+}
+
+.ua {
+    background-image: url('../img/ua.png');
+}
+
+.en, .ru, .es, .ua {
+    display: inline-block;
+    width: 24px;
+    height: 16px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-right: 2px;
+    border: 1px solid #000000;
+    cursor: pointer;
+}
+
+.my-photo {
+    display: block;
+    width: 70%;
+    height: auto;
+    border-radius: 100%;
+    border: 5px solid #d0d6d3;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.my-name {
+    color: #10c275;
+}
+
+.position {
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #d2d2d2;
+}
+
+.about {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.contacts {
+    border-right: 2px solid #10c275;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #10c275;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.email {}
+
+.mobTitle {}
+
+.mobile {}
+
+.social {
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.social-link {
+    cursor: pointer;
+}
+
+.social-icon {
+    font-size: 25px;
+    margin-right: 10px;
+    color: #000;
+}
+
+.social-icon:last-child {}
+
+.download {
+    padding: 8px 25px;
+    background-color: #20c6d5;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.download-link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 700;
+}
+
+/*--------------------------------------------------------------------*/
+
+@media only screen and (min-width: 768px) {
+    .home-wrapper {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding-bottom: 1rem;
+        margin-bottom: 0;
+        width: 35%;
+        overflow-y: scroll;
+        z-index: 100;
+    }
+
+    .home-center {
+        top: 1rem;
+        left: 50%;
+        bottom: 1rem;
+        position: absolute;
+        transform: translate(-50%, 0);
+        transition: 2s;
+    }
+
+    .home-left {
+        top: 1rem;
+        left: 38%;
+        bottom: 1rem;
+        position: absolute;
+        transform: translate(-50%, 0);
+        transition: 2s;
+    }
+
+    .en, .ru, .es, .ua {
+        margin-right: 4px;
+    }
+
+    .my-photo {
+        width: 60%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .position {
+        padding-bottom: 8px;
+        margin-top: 1rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .about {
+        padding-bottom: 5px;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 14px;
+    }
+
+    .social {
+        text-align: center;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }
+
+    .social-link {
+        cursor: pointer;
+    }
+
+    .social-icon {
+        font-size: 25px;
+        margin-right: 10px;
+        color: #000;
+    }
+}
+
+/*-----------------------------------------------------*/
+@media only screen and (min-width: 1200px) {
+    .home-wrapper {
+        width: 350px;
+        max-height: 600px;
+    }
+
+    .home-center {
+        top: 2rem;
+        left: 50%;
+        bottom: 2rem;
+    }
+
+    .home-left {
+        top: 2rem;
+        left: 40%;
+        bottom: 2rem;
+    }
+
+    .language-box {
+        padding-top: 0.5rem;
+    }
+
+    .en, .ru, .es, .ua {
+        margin-right: 8px;
+    }
+
+    .my-photo {
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .position {
+        padding-bottom: 0.5rem;
+        margin-top: 0.5rem;
+        font-size: 1.25rem;
+    }
+
+    .about {
+        padding-bottom: 0.5rem;
+        font-size: 1rem;
+    }
+
+    .contacts {
+        font-size: 1rem;
+    }
+
+    .social-icon {
+        font-size: 2rem;
+    }
+
+
+
+    .download-link {
+        font-size: 1rem;
+    }
+}

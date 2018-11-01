@@ -1,0 +1,108 @@
+.soft-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    margin-top: 20px;
+    background-color: rgba(255,255,255,0.95);
+    margin-bottom: 1rem;
+}
+
+.prof-skills {
+    font-weight: 600;
+}
+
+.softSkill-name {
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.soft-section {
+    border-bottom: 2px dotted #d2d2d2;
+    padding-bottom: 10px;
+}
+
+.soft-section:last-child {
+    border: none;
+}
+
+.lev35 {
+    width: 25%;
+}
+
+.hobby-icon {
+    display: block;
+    font-size: 30px;
+}
+
+.hobby-title {
+    margin-top: 5px;
+    color: #909593;
+}
+
+.hobby-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hobby-item {
+    text-align: center;
+}
+
+/*------------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+    .soft-wrapper {
+        margin-top: 0;
+        margin-bottom: 0;
+        overflow-y: scroll;
+        width: 35%;
+        position: absolute;
+    }
+
+    .soft-invisible {
+        opacity: 0;
+        transition: 3s;
+        top: 1rem;
+        bottom: 1rem;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .soft-visible {
+        opacity: 1;
+        transition: 3s;
+        top: 1rem;
+        bottom: 1rem;
+        right: 1rem;
+        transform: translate(0, 0);
+    }
+}
+
+/*---------------------------------------------------*/
+@media only screen and (min-width: 1200px) {
+    .soft-wrapper {
+        width: 350px;
+        max-height: 600px;
+    }
+
+    .soft-invisible {
+        top: 2rem;
+        bottom: 2rem;
+    }
+
+    .soft-visible {
+        top: 2rem;
+        bottom: 2rem;
+        left: 75%;
+        transform: translate(-50%, 0);
+    }
+
+    .prof-skills {
+        font-size: 1.3rem;
+    }
+
+    .softSkill-name {
+        font-size: 1rem;
+        text-align: left;
+    }
+}

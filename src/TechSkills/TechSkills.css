@@ -1,0 +1,141 @@
+.techSkills-wrapper {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    margin-top: 20px;
+    background-color: rgba(255,255,255,0.95);
+}
+
+.tech-title {
+    border-bottom: 2px solid #d2d2d2;
+    padding-bottom: 10px;
+}
+
+.title-icon {
+    color: #96a19c;
+    margin-right: 10px;
+}
+
+.skill-name {
+    font-weight: 700;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.skill-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    line-height: 15px;
+    vertical-align: middle;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.skill-wrapper:last-child {
+    margin-bottom: 0;
+    padding-bottom: 10px;
+}
+
+.skill-level {
+    display: inline-block;
+    height: 10px;
+    background-color: #10c275;
+    border-radius: 5px;
+}
+
+.skill-percent {
+    margin-left: auto;
+}
+
+.lev90 {
+    width: 80%;
+}
+
+.lev60 {
+    width: 50%;
+}
+
+.lev80 {
+    width: 70%;
+}
+
+.lev85 {
+    width: 75%;
+}
+
+.lev70 {
+    width: 60%;
+}
+
+.lev50 {
+    width: 40%;
+}
+
+.lev30 {
+    width: 20%;
+}
+
+/*--------------------------------------------------------*/
+@media only screen and (min-width: 768px) {
+    .techSkills-wrapper {
+        padding-top: 0.5rem;
+        margin-top: 0;
+        margin-bottom: 0;
+        overflow-y: scroll;
+        width: 35%;
+        position: absolute;
+    }
+
+    .techSkills-invisible {
+        opacity: 0;
+        transition: 3s;
+        top: 1rem;
+        bottom: 1rem;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+
+    .techSkills-right{
+        opacity: 1;
+        transition: 3s;
+        top: 1rem;
+        bottom: 1rem;
+        right: 1rem;
+        transform: translate(0, 0);
+    }
+
+    .tech-title {
+        margin-top: 0;
+    }
+}
+
+/*------------------------------------------------------------*/
+@media only screen and (min-width: 1200px) {
+    .techSkills-wrapper {
+        width: 350px;
+        max-height: 600px;
+    }
+
+    .techSkills-invisible {
+        top: 2rem;
+        bottom: 2rem;
+        left: 50%;
+    }
+
+    .techSkills-right{
+        top: 2rem;
+        bottom: 2rem;
+        left: 75%;
+        transform: translate(-50%, 0);
+    }
+
+    .tech-title {
+        font-size: 1.3rem;
+    }
+
+    .skill-name {
+        font-size: 1rem;
+    }
+}
