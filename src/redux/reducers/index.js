@@ -7,6 +7,8 @@ import switchProject from './switctherProjects';
 import switchWork from './switcherWork';
 import switchEdu from './switcherEdu';
 import switchSoft from './switcherSoftSkills';
+import scrollUp from './scrollUp';
+import ClientHeigth from './clientHeight';
 
 const rootReducer = combineReducers({
 
@@ -17,6 +19,8 @@ const rootReducer = combineReducers({
     switchWork,
     switchEdu,
     switchSoft,
+    scrollUp,
+    ClientHeigth,
 
 });
 

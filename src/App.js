@@ -9,7 +9,7 @@ import SoftSkills from './SoftSkills/SoftSkills';
 import Menu from './Menu/Menu';
 import { English } from '../src/redux/actions/langObjectAction';
 import { connect } from 'react-redux';
-
+import { scrollAction } from '../src/redux/actions/scrollAction';
 
 class App extends Component {
 
@@ -19,8 +19,16 @@ class App extends Component {
 
     render() {
 
+        window.addEventListener("scroll", this.props.scrollAction);
+
         return (
             <div className="root root-wrap">
+
+                <a
+                    onClick={() => window.scrollTo({top: 0, behavior: 'smooth'})}
+                    className={this.props.scrollUser > this.props.scrollHeight ? "scrollShow" : "scrollHide"}
+                    title="toUp"
+                ><i className="far fa-arrow-alt-circle-up icon-up"></i></a>
 
                 <Menu/>
                 <Home/>
@@ -36,12 +44,22 @@ class App extends Component {
     }
 }
 
+function MSTP(state) {
+    return {
+        scrollUser: state.scrollUp,
+        scrollHeight: state.ClientHeigth,
+    }
+}
+
 function MDTP(dispatch) {
     return {
         EnLang: function () {
             dispatch(English())
         },
+        scrollAction: function () {
+            dispatch(scrollAction())
+        }
     }
 }
 
-export default connect(null, MDTP)(App);
+export default connect(MSTP, MDTP)(App);

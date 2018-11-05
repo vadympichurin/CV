@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  background-attachment: fixed;
 }
 
 /*.App-logo {*/
@@ -39,14 +39,27 @@
   }
 }
 
+.scrollHide {
+  display: none;
+}
+
+.scrollShow {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  z-index: 9999;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.icon-up {
+  color: #20c6d5;
+  font-size: 30px;
+}
+
 .root {
-
-  height: 100vh;
-
-  overflow-y: scroll;
-
-  padding-right: 1rem;
-  padding-left: 1rem;
+  padding: 1rem;
 }
 
 ::-webkit-scrollbar { width: 3px; height: 3px;}
@@ -59,29 +72,25 @@
 
 @media only screen and (min-width: 768px) {
   .root {
-
-    margin:auto;
-
+    margin: auto;
     overflow-y: hidden;
-
     padding-right: 1rem;
     padding-left: 1rem;
-
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   #root {
     background-image: url('./img/bgi4.jpg');
-
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-
-    margin:auto;
+    margin: auto;
     text-align: center;
+    height: 100vh;
   }
 
   .root-wrap {
