@@ -28,7 +28,8 @@ const Projects = ({langObject, switchProject}) => {
 
                  <li className='projects-item'>
                     <a className='project-link' href="https://chat-slack-1adf4.firebaseapp.com/" target="_blank">Clone slack chat</a>
-                    <p className='project-description'>This is a prototype of slack-chat. Used React, Redux, Semantic Ui, Firebase</p>
+                    <p className='project-description first-line'>It is a slack-chat prototype.</p>
+                    <p className='project-description second-line'>React, Redux, Semantic Ui, Firebase</p>
                 </li>
 
             </ul>

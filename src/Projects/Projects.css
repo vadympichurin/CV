@@ -39,6 +39,14 @@
     color: #909593;
 }
 
+.first-line {
+    margin-bottom: 0;
+}
+
+.second-line {
+    margin-top: 0;
+}
+
 /*---------------------------------------------*/
 @media only screen and (min-width: 768px) {
     .projects-wrapper {
@@ -110,5 +118,9 @@
         font-size: 1rem;
         margin-top: 0;
         margin-bottom: 0.5rem;
+    }
+
+    .first-line {
+        margin-bottom: 0;
     }
 }
