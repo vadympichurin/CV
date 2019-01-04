@@ -254,8 +254,8 @@ export const es = {
     greeting: 'Hola, soy ',
     name: 'Vadym Pichurin',
     phone: 'movil:',
-    download: 'Descarga mi CV',
-    coverletter: 'Descarga mi CP',
+    download: 'Descargar mi CV',
+    coverletter: 'Descargar mi CP',
 
     techskills: 'Habilidades técnicas',
 
@@ -280,8 +280,8 @@ export const es = {
     workcompany4: '\'RENTECHNO\' | Energía renovable | Planta de energía solar',
 
     workdate5: 'Jul 2018 - current',
-    workposition5: 'Junior desarrollador front-end',
-    workcompany5: 'GoIT | UP Scale Academy | IT Bootcamp | Fullstack desarrollador',
+    workposition5: 'Front-End Developer Junior',
+    workcompany5: 'GoIT | UP Scale Academy | IT Bootcamp | Fullstack developer',
 
 // ----- EDUCATION -------------------------
     education: 'Formación',
@@ -289,7 +289,7 @@ export const es = {
     edukpiyears: 'Sept 2003 - Feb 2009',
     eduposition: 'Maestría | Ingeniero electricista',
     // ----- ADDITIONAL EDUCATION ---------------
-    addeducation: 'Los cursos',
+    addeducation: 'Educación adicional',
     addeduyears1: 'Sept 2016 - Jun 2018',
     addeducourse1: 'Curso de español (A2)',
     addedu1: 'Madrasa',
@@ -328,6 +328,6 @@ export const es = {
     techButton: 'Habilidades técnicas',
     projButton: 'Mis proyectos',
     expButton: 'Experiencia profesional',
-    eduButton: 'Formación',
+    eduButton: 'Educación',
     softButton: 'Habilidades sociales',
 };
