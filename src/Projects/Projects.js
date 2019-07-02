@@ -12,6 +12,11 @@ const Projects = ({langObject, switchProject}) => {
 
             <ul className='projects-list'>
                 <li className='projects-item'>
+                    <a className='project-link' href="https://play.google.com/store/apps/details?id=com.mongrov.app" target="_blank">Mongrov mobile collaborative engagement platform</a>
+                    <p className='project-description'>React Native, Android studio, xCode</p>
+                </li>
+
+                <li className='projects-item'>
                     <a className='project-link' href="https://vadympichurin.github.io/BC7-html-Final-Project/build/" target="_blank">Landing GoIT</a>
                     <p className='project-description'>HTML, CSS, SASS, Gulp, Git. This project was a team work, where I was a teamleader.</p>
                 </li>

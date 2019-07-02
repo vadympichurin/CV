@@ -21,7 +21,7 @@ const Home = ({RuLang, UaLang, EnLang, EsLang, langObject, homeCenter, homeLeft,
             <img className='my-photo' src={photo} alt="my photo"/>
 
             <h1>{langObject.greeting}<span className='my-name'>{langObject.name}</span> </h1>
-            <h4 className='position'>Junior Front-End Developer</h4>
+            <h4 className='position'>Front-End Developer</h4>
             <p className='about'>A pessimist sees the difficulty in every opportunity;
                 an optimist sees the opportunity in every difficulty.
                 (Sir Winston Churchill)</p>
@@ -39,7 +39,10 @@ const Home = ({RuLang, UaLang, EnLang, EsLang, langObject, homeCenter, homeLeft,
             </div>
 
 
-                <a className='download-link download' href="https://drive.google.com/file/d/1PpEIfkvKYyBH8lwdGMu9i2G3N1JQ5RiA/view" target='_blank'>{langObject.download}</a>
+                <a className='download-link download' 
+                // href="https://drive.google.com/file/d/1PpEIfkvKYyBH8lwdGMu9i2G3N1JQ5RiA/view"
+                href="https://drive.google.com/file/d/1Kf4SAX7ijt-iEmiIOAuA7_RuFyk2HVz-/view"
+                target='_blank'>{langObject.download}</a>
 
         </div>
     )

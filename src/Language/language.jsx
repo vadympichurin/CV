@@ -27,9 +27,13 @@ export const en = {
     workposition4: 'Lead electrical engineer. Teamlead',
     workcompany4: 'LLC \'RENTECHNO\' | Renewable energy | Solar farm',
 
-    workdate5: 'July 2018 - current',
-    workposition5: 'Junior Front-End Developer',
-    workcompany5: 'GoIT | UP Scale Academy | IT Bootcamp | Fullstack developer',
+    workdate5: 'December 2018 - current',
+    workposition5: 'Front-End teacher', //'Junior Front-End Developer',
+    workcompany5: 'GoITeens | Smart Start | Front-End part 1 (HTML, CSS)', //'GoIT | UP Scale Academy | IT Bootcamp | Fullstack developer',
+
+    workdate6: 'January 2019 - current',
+    workposition6: 'Front-End Developer',
+    workcompany6: 'Mongrov, Inc. Mobile department',
 
 // ----- EDUCATION -------------------------
     education: 'Education',
@@ -62,8 +66,8 @@ export const en = {
     prof3: 'Confidence',
     prof4: 'Creativity',
     langskils: 'Language skills',
-    lang1: 'English',
-    lang2: 'Spanish',
+    lang1: 'English (Upper Intermediate)',
+    lang2: 'Spanish (Elementary)',
 
     // ----- HOBBY -----
     hobbies: 'Hobbies & Interests',
@@ -111,9 +115,13 @@ export const ru = {
     workposition4: 'Ведущий инженер электрик. Руководитель группы',
     workcompany4: 'ООО \'РЕНТЕХНО\' | Возобновляемая энергетика | Солнечные электростанции',
 
-    workdate5: 'Июль 2018 - в настоящее время',
-    workposition5: 'Junior Front-End Developer',
-    workcompany5: 'GoIT | UP Scale Academy | IT Bootcamp | Fullstack developer',
+    workdate5: 'Декабрь 2018 - в настоящее время',
+    workposition5: 'Front-End преподаватель',
+    workcompany5: 'GoITeens | Smart Start | Front-End part 1 (HTML, CSS)',
+
+    workdate6: 'Январь 2019 - в настоящее время',
+    workposition6: 'Front-End Developer',
+    workcompany6: 'Mongrov, Inc. Mobile department',
 
 // ----- EDUCATION -------------------------
     education: 'Высшее образование',
@@ -146,8 +154,8 @@ export const ru = {
     prof3: 'Надежность',
     prof4: 'Креативность',
     langskils: 'Знание языков',
-    lang1: 'Английский',
-    lang2: 'Испанский',
+    lang1: 'Английский (Upper Intermediate)',
+    lang2: 'Испанский (Elementary)',
 
     // ----- HOBBY -----
     hobbies: 'Хобби & Интересы',
@@ -195,9 +203,13 @@ export const ua = {
     workposition4: 'Провідний інженер електрик. Керівник групи',
     workcompany4: 'ТОВ \'РЕНТЕХНО\' | Відновлювальна енергетика | Сонячні електростанції',
 
-    workdate5: 'Липень 2018 - теперішній час',
-    workposition5: 'Junior Front-End Developer',
-    workcompany5: 'GoIT | UP Scale Academy | IT Bootcamp | Fullstack developer',
+    workdate5: 'Грудень 2018 - теперішній час',
+    workposition5: 'Front-End викладач',
+    workcompany5: 'GoITeens | Smart Start | Front-End part 1 (HTML, CSS)',
+
+    workdate6: 'Січень 2019 - теперішній час',
+    workposition6: 'Front-End Developer',
+    workcompany6: 'Mongrov, Inc. Mobile department',
 
 // ----- EDUCATION -------------------------
     education: 'Вища освіта',
@@ -230,8 +242,8 @@ export const ua = {
     prof3: 'Надійність',
     prof4: 'Креативність',
     langskils: 'Знання мов',
-    lang1: 'Англійська',
-    lang2: 'Іспанська',
+    lang1: 'Англійська (Upper Intermediate)',
+    lang2: 'Іспанська (Elementary)',
 
     // ----- HOBBY -----
     hobbies: 'Хоббі & Інтереси',
@@ -279,9 +291,13 @@ export const es = {
     workposition4: 'Ingeniero electricista principal. Teamlead',
     workcompany4: '\'RENTECHNO\' | Energía renovable | Planta de energía solar',
 
-    workdate5: 'Jul 2018 - current',
-    workposition5: 'Front-End Developer Junior',
-    workcompany5: 'GoIT | UP Scale Academy | IT Bootcamp | Fullstack developer',
+    workdate5: 'Diciembre 2018 - current',
+    workposition5: 'Front-End profesor',
+    workcompany5: 'GoITeens | Smart Start | Front-End part 1 (HTML, CSS)',
+
+    workdate6: 'Enero 2019 - current',
+    workposition6: 'Front-End Developer',
+    workcompany6: 'Mongrov, Inc. Mobile department',
 
 // ----- EDUCATION -------------------------
     education: 'Formación',
@@ -314,8 +330,8 @@ export const es = {
     prof3: 'Confianza',
     prof4: 'Creatividad',
     langskils: 'Idiomas',
-    lang1: 'Inglés',
-    lang2: 'Español',
+    lang1: 'Inglés (Upper Intermediate)',
+    lang2: 'Español (Elementary)',
 
     // ----- HOBBY -----
     hobbies: 'Aficiones\n & Intereses',
