@@ -13,45 +13,58 @@ const SoftSkills = ({langObject, switchSoft}) => {
             <div className='soft-section'>
             <p className='prof-skills'>{langObject.profskills}</p>
 
-            <p className='softSkill-name'>{langObject.prof1}</p>
+            <ul className="prof-skills-list">
+                <li className="softSkill-name">{langObject.prof1}</li>
+                <li className="softSkill-name">{langObject.prof2}</li>
+                <li className="softSkill-name">{langObject.prof3}</li>
+                <li className="softSkill-name">{langObject.prof4}</li>
+            </ul>
+
+
+            {/* <p className='softSkill-name'>{langObject.prof1}</p>
             <div className='skill-wrapper'>
                 <span className='skill-level lev90'></span>
                 <span className='skill-percent'>90%</span>
-            </div>
+            </div> */}
 
-            <p className='softSkill-name'>{langObject.prof2}</p>
+            {/* <p className='softSkill-name'>{langObject.prof2}</p>
             <div className='skill-wrapper'>
                 <span className='skill-level lev85'></span>
                 <span className='skill-percent'>85%</span>
-            </div>
+            </div> */}
 
-            <p className='softSkill-name'>{langObject.prof3}</p>
+            {/* <p className='softSkill-name'>{langObject.prof3}</p>
             <div className='skill-wrapper'>
                 <span className='skill-level lev90'></span>
                 <span className='skill-percent'>90%</span>
-            </div>
+            </div> */}
 
-            <p className='softSkill-name'>{langObject.prof4}</p>
+            {/* <p className='softSkill-name'>{langObject.prof4}</p>
             <div className='skill-wrapper'>
                 <span className='skill-level lev70'></span>
                 <span className='skill-percent'>70%</span>
-            </div>
+            </div> */}
             </div>
 
             <div className='soft-section'>
             <p className='prof-skills'>{langObject.langskils}</p>
 
-            <p className='softSkill-name'>{langObject.lang1}</p>
+            <ul>
+                <li className='softSkill-name'>{langObject.lang1}</li>
+                <li className='softSkill-name'>{langObject.lang2}</li>
+            </ul>
+
+            {/* <p className='softSkill-name'>{langObject.lang1}</p>
             <div className='skill-wrapper'>
                 <span className='skill-level lev70'></span>
                 <span className='skill-percent'>70%</span>
-            </div>
+            </div> */}
 
-            <p className='softSkill-name'>{langObject.lang2}</p>
+            {/* <p className='softSkill-name'>{langObject.lang2}</p>
             <div className='skill-wrapper'>
                 <span className='skill-level lev35'></span>
                 <span className='skill-percent'>35%</span>
-            </div>
+            </div> */}
             </div>
 
 

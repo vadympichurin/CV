@@ -33,6 +33,11 @@
     margin: 0;
 }
 
+.work-company-link {
+    text-decoration: none;
+    color: #000;
+}
+
 .work-post {
     margin: 0;
     font-weight: 600;

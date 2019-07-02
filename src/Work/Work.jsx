@@ -12,6 +12,14 @@ const Work = ({langObject, switchWork}) => {
 
             <ul className='work-list'>
                 <li className='work-item'>
+                    <p className='work-years'>{langObject.workdate6}</p>
+                    <a className="work-company-link" href="https://mongrov.com/" target="_blanc">
+                    <p className='work-post'>{langObject.workposition6}</p>
+                    <p className='work-company'>{langObject.workcompany6}</p>
+                    </a>
+                </li>
+
+                <li className='work-item'>
                     <p className='work-years'>{langObject.workdate5}</p>
                     <p className='work-post'>{langObject.workposition5}</p>
                     <p className='work-company'>{langObject.workcompany5}</p>
